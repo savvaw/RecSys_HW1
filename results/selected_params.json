@@ -1,0 +1,44 @@
+{
+  "ItemKNN": {
+    "neighbors": 100,
+    "shrinkage": 20
+  },
+  "iALS": {
+    "factors": 16,
+    "regularization": 10.0,
+    "alpha": 20.0,
+    "iterations": 10,
+    "seed": 42
+  },
+  "EASE": {
+    "regularization": 200.0
+  },
+  "FM": {
+    "factors": 16,
+    "epochs": 8,
+    "learning_rate": 0.01,
+    "regularization": 0.0001,
+    "negatives": 2,
+    "batch_size": 2048,
+    "metadata": true,
+    "seed": 42
+  },
+  "CustomALS": {
+    "factors": 16,
+    "regularization": 10.0,
+    "alpha": 20.0,
+    "iterations": 10,
+    "seed": 42,
+    "strength": 0.75
+  },
+  "FM_ID_only": {
+    "factors": 16,
+    "epochs": 8,
+    "learning_rate": 0.01,
+    "regularization": 0.0001,
+    "negatives": 2,
+    "batch_size": 2048,
+    "metadata": false,
+    "seed": 42
+  }
+}

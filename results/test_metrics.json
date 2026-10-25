@@ -1,0 +1,92 @@
+[
+  {
+    "model": "ItemKNN",
+    "NDCG@10": 0.015679740349759826,
+    "Recall@10": 0.024443448983992574,
+    "params": {
+      "neighbors": 100,
+      "shrinkage": 20
+    },
+    "fit_seconds": 0.7430398999713361,
+    "eval_seconds": 1.3564228999894112,
+    "users": 3153
+  },
+  {
+    "model": "iALS",
+    "NDCG@10": 0.014054992954375881,
+    "Recall@10": 0.022796933735833774,
+    "params": {
+      "factors": 16,
+      "regularization": 10.0,
+      "alpha": 20.0,
+      "iterations": 10,
+      "seed": 42
+    },
+    "fit_seconds": 11.676537499995902,
+    "eval_seconds": 3.7236223000800237,
+    "users": 3153
+  },
+  {
+    "model": "EASE",
+    "NDCG@10": 0.017774634257254292,
+    "Recall@10": 0.02756519972220097,
+    "params": {
+      "regularization": 200.0
+    },
+    "fit_seconds": 78.8174709000159,
+    "eval_seconds": 4.112597999977879,
+    "users": 3153
+  },
+  {
+    "model": "FM",
+    "NDCG@10": 0.009737739926340616,
+    "Recall@10": 0.011841588913269845,
+    "params": {
+      "factors": 16,
+      "epochs": 8,
+      "learning_rate": 0.01,
+      "regularization": 0.0001,
+      "negatives": 2,
+      "batch_size": 2048,
+      "metadata": true,
+      "seed": 42
+    },
+    "fit_seconds": 24.019219299894758,
+    "eval_seconds": 3.756396400043741,
+    "users": 3153
+  },
+  {
+    "model": "CustomALS",
+    "NDCG@10": 0.013911058415176642,
+    "Recall@10": 0.022886021688788637,
+    "params": {
+      "factors": 16,
+      "regularization": 10.0,
+      "alpha": 20.0,
+      "iterations": 10,
+      "seed": 42,
+      "strength": 0.75
+    },
+    "fit_seconds": 9.855808199965395,
+    "eval_seconds": 3.482674299972132,
+    "users": 3153
+  },
+  {
+    "model": "FM_ID_only",
+    "NDCG@10": 0.003749412023007759,
+    "Recall@10": 0.004462064233782648,
+    "params": {
+      "factors": 16,
+      "epochs": 8,
+      "learning_rate": 0.01,
+      "regularization": 0.0001,
+      "negatives": 2,
+      "batch_size": 2048,
+      "metadata": false,
+      "seed": 42
+    },
+    "fit_seconds": 23.05242029996589,
+    "eval_seconds": 4.163434499991126,
+    "users": 3153
+  }
+]

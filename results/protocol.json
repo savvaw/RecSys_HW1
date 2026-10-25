@@ -1,0 +1,30 @@
+{
+  "validation": {
+    "history_rows": 66365,
+    "positive_history": 61289,
+    "users": 11374,
+    "catalogue_items": 10110,
+    "future_rows": 35490,
+    "future_positive_rows": 33423,
+    "cold_user_positive_rows": 17970,
+    "cold_item_positive_rows": 6525,
+    "cold_any_positive_rows": 21736,
+    "inactive_positive_rows": 5333,
+    "evaluated_users": 2001,
+    "evaluated_positive_rows": 6354
+  },
+  "test": {
+    "history_rows": 101855,
+    "positive_history": 94712,
+    "users": 14368,
+    "catalogue_items": 11234,
+    "future_rows": 43437,
+    "future_positive_rows": 41177,
+    "cold_user_positive_rows": 19368,
+    "cold_item_positive_rows": 5728,
+    "cold_any_positive_rows": 23332,
+    "inactive_positive_rows": 6692,
+    "evaluated_users": 3153,
+    "evaluated_positive_rows": 11153
+  }
+}

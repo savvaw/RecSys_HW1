@@ -1,0 +1,172 @@
+[
+  {
+    "model": "ItemKNN",
+    "params": {
+      "neighbors": 30,
+      "shrinkage": 0
+    },
+    "NDCG@10": 0.013883706237652055,
+    "Recall@10": 0.02283296846842184,
+    "fit_seconds": 0.48881789995357394
+  },
+  {
+    "model": "ItemKNN",
+    "params": {
+      "neighbors": 30,
+      "shrinkage": 20
+    },
+    "NDCG@10": 0.018337435766958635,
+    "Recall@10": 0.027928505867533454,
+    "fit_seconds": 0.3835105000762269
+  },
+  {
+    "model": "ItemKNN",
+    "params": {
+      "neighbors": 100,
+      "shrinkage": 0
+    },
+    "NDCG@10": 0.015063891746271478,
+    "Recall@10": 0.023935756283411696,
+    "fit_seconds": 0.5595249999314547
+  },
+  {
+    "model": "ItemKNN",
+    "params": {
+      "neighbors": 100,
+      "shrinkage": 20
+    },
+    "NDCG@10": 0.018706695352845734,
+    "Recall@10": 0.028864766721629513,
+    "fit_seconds": 0.5406606000615284
+  },
+  {
+    "model": "iALS",
+    "params": {
+      "factors": 16,
+      "regularization": 1.0,
+      "alpha": 20.0,
+      "iterations": 10,
+      "seed": 42
+    },
+    "NDCG@10": 0.01704566968034639,
+    "Recall@10": 0.024806040707366268,
+    "fit_seconds": 7.152306700008921
+  },
+  {
+    "model": "iALS",
+    "params": {
+      "factors": 16,
+      "regularization": 10.0,
+      "alpha": 20.0,
+      "iterations": 10,
+      "seed": 42
+    },
+    "NDCG@10": 0.01750787723046643,
+    "Recall@10": 0.02488499282794463,
+    "fit_seconds": 6.249185900087468
+  },
+  {
+    "model": "iALS",
+    "params": {
+      "factors": 32,
+      "regularization": 1.0,
+      "alpha": 20.0,
+      "iterations": 10,
+      "seed": 42
+    },
+    "NDCG@10": 0.01667894198009909,
+    "Recall@10": 0.02411426364170387,
+    "fit_seconds": 9.821912699961103
+  },
+  {
+    "model": "iALS",
+    "params": {
+      "factors": 32,
+      "regularization": 10.0,
+      "alpha": 20.0,
+      "iterations": 10,
+      "seed": 42
+    },
+    "NDCG@10": 0.01664395681493419,
+    "Recall@10": 0.0241485223060225,
+    "fit_seconds": 8.802823800011538
+  },
+  {
+    "model": "EASE",
+    "params": {
+      "regularization": 50.0
+    },
+    "NDCG@10": 0.021617142973029323,
+    "Recall@10": 0.030949419634227104,
+    "fit_seconds": 53.15642810007557
+  },
+  {
+    "model": "EASE",
+    "params": {
+      "regularization": 200.0
+    },
+    "NDCG@10": 0.02168277399839239,
+    "Recall@10": 0.03088722295346664,
+    "fit_seconds": 52.853707000031136
+  },
+  {
+    "model": "FM",
+    "params": {
+      "factors": 16,
+      "epochs": 8,
+      "learning_rate": 0.01,
+      "regularization": 0.0001,
+      "negatives": 2,
+      "batch_size": 2048,
+      "metadata": true,
+      "seed": 42
+    },
+    "NDCG@10": 0.00785824459631386,
+    "Recall@10": 0.009042113925256053,
+    "fit_seconds": 13.75861989997793
+  },
+  {
+    "model": "FM",
+    "params": {
+      "factors": 16,
+      "epochs": 16,
+      "learning_rate": 0.01,
+      "regularization": 0.0001,
+      "negatives": 2,
+      "batch_size": 2048,
+      "metadata": true,
+      "seed": 42
+    },
+    "NDCG@10": 0.0075659672040532975,
+    "Recall@10": 0.012971291711627331,
+    "fit_seconds": 26.829471099888906
+  },
+  {
+    "model": "CustomALS",
+    "params": {
+      "factors": 16,
+      "regularization": 10.0,
+      "alpha": 20.0,
+      "iterations": 10,
+      "seed": 42,
+      "strength": 0.25
+    },
+    "NDCG@10": 0.017582869875749266,
+    "Recall@10": 0.024373345525230884,
+    "fit_seconds": 6.54985549999401
+  },
+  {
+    "model": "CustomALS",
+    "params": {
+      "factors": 16,
+      "regularization": 10.0,
+      "alpha": 20.0,
+      "iterations": 10,
+      "seed": 42,
+      "strength": 0.75
+    },
+    "NDCG@10": 0.01783449784331913,
+    "Recall@10": 0.027848752955525625,
+    "fit_seconds": 7.6734134999569505
+  }
+]

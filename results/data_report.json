@@ -1,0 +1,19 @@
+{
+  "raw_rows": 169781,
+  "raw_users": 16566,
+  "raw_items": 11797,
+  "missing": {
+    "user": 0,
+    "item": 0,
+    "rating": 0,
+    "timestamp": 0,
+    "verified": 0
+  },
+  "duplicate_used_fields": 23847,
+  "invalid_or_missing_rows": 0,
+  "repeated_user_item_rows": 24489,
+  "clean_rows": 145292,
+  "clean_users": 16566,
+  "clean_items": 11797,
+  "sparsity": 0.9992565488020305
+}

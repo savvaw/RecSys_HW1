@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+work/
+data/
+*.gz
+*.npz
+*.npy
+*.pkl
+.env
